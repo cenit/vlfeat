@@ -22,9 +22,9 @@
 # MATLAB 2017a or greater on x64
 
 DEBUG = no
-MATLABROOT = C:\Program Files\MATLAB\R2017a
-VCTOOLS_VERSION=14.10.25017
-WIN10_VERSION=10.0.15063.0
+MATLABROOT = C:\Program Files\MATLAB\R2017b
+VCTOOLS_VERSION=14.13.26128
+WIN10_VERSION=10.0.16299.0
 # --------------------------------------------------------------------
 WINSDK_M_LIBS = $(WINDOWSSDKDIR)\Lib\$(WIN10_VERSION)\um\x64
 WINSDK_CRT_LIBS = $(WINDOWSSDKDIR)\Lib\$(WIN10_VERSION)\ucrt\x64
@@ -40,7 +40,7 @@ LINK = "$(MSVCROOT)\link.exe"
 LFLAGS = /MACHINE:X64 \
          /LIBPATH:"$(VSLIBS)" \
          /LIBPATH:"$(WINSDK_M_LIBS)" \
-         /LIBPATH:"$(WINSDK_CRT_LIBS)"          
+         /LIBPATH:"$(WINSDK_CRT_LIBS)"
 
 # --------------------------------------------------------------------
 #                                                                Flags

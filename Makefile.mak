@@ -22,7 +22,7 @@
 # MATLAB 2017a or greater on x64
 
 DEBUG = no
-MATLABROOT = C:\Program Files\MATLAB\R2017b
+MATLABROOT = X:\ProgramFiles\MATLAB\R2017b
 VCTOOLS_VERSION=14.13.26128
 WIN10_VERSION=10.0.16299.0
 # --------------------------------------------------------------------

@@ -143,3 +143,4 @@ foreach(val RANGE 0 ${size} 2)
 endforeach()
 
 install(TARGETS vl DESTINATION ${CMAKE_SOURCE_DIR}/bin/${Matlab_MEX_EXTENSION}/)
+install(TARGETS vl DESTINATION ${CMAKE_SOURCE_DIR}/toolbox/mex/${Matlab_MEX_EXTENSION}/)
